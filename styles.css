@@ -211,6 +211,58 @@ button:hover {
   background: var(--sage);
 }
 
+.menu-explorer {
+  border: 2px solid var(--sage);
+}
+
+.filter-controls,
+.product-results {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+}
+
+.filter-button {
+  background: var(--espresso);
+}
+
+.filter-button.is-selected,
+.favorite-button[aria-pressed="true"] {
+  background: var(--sage);
+}
+
+.saved-summary,
+.field-message,
+.form-status {
+  display: block;
+  margin-top: 0.5rem;
+  font-weight: 700;
+}
+
+.field-message {
+  color: var(--terracotta);
+}
+
+.form-status {
+  color: var(--sage);
+}
+
+.product-card {
+  flex: 1 1 15rem;
+  padding: 1rem;
+  border: 1px solid var(--espresso);
+  border-radius: 0.25rem;
+  background: var(--paper);
+}
+
+.product-card h3 {
+  margin-top: 0;
+}
+
+.favorite-button {
+  background: var(--terracotta);
+}
+
 footer {
   padding: 1.25rem 1rem;
   background: var(--espresso);

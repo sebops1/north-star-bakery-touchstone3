@@ -1,10 +1,12 @@
 North Star Bakery Website Files
 
-This folder contains the four HTML pages for the Sophia Touchstone Task 2 project:
+This folder contains the four HTML pages for the Sophia Touchstone Task 2 project, with CSS and JavaScript updates for Touchstones 3 and 4:
 - index.html
 - products.html
 - about.html
 - contact.html
+- styles.css
+- app.js
 
 Before previewing the site, download the provided Bakery media ZIP from Sophia's Client Scenarios page:
 https://app.sophia.org/download/attachment/66378-Bakery_c.zip
@@ -26,4 +28,9 @@ north-star-bakery/
     bakery-welcome_c.mp3
     bakery-behind-scenes_c.mp4
 
-Open index.html with a browser preview and check the navigation, images, audio, video, and form validation. Do not add CSS or JavaScript for this assignment.
+Touchstone 4 additions:
+- Product category filter and favorite-item saver on products.html
+- localStorage remembers favorite products and preorder contact details
+- JavaScript validation with clear feedback near invalid fields
+
+Open index.html with a browser preview and check the navigation, images, audio, video, product feature, and preorder form behavior.
